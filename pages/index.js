@@ -1,9 +1,22 @@
+/*
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+*/
+
+import Link from 'next/link'
 
 export default function Home() {
   return (
+
+    <div>
+      <h1>hola mundo</h1>  
+      <a href='/products/create'>Crea</a>
+      <Link href='/products/create'>Crear link</Link>
+    </div>
+
+
+/*
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -65,5 +78,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
+*/
   )
 }
