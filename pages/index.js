@@ -12,7 +12,8 @@ export default function Home() {
     <div>
       <h1>hola mundo</h1>  
 
-      <Link href='/products/create'>Crear Pdto con Link</Link>
+      <u><Link href='/products/create'>Crear Pdto con Link</Link></u>
+      
     </div>
 
 
